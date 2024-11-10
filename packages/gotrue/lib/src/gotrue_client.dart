@@ -533,8 +533,8 @@ class GoTrueClient {
     String? captchaToken,
     String? tokenHash,
   }) async {
-    assert((email != null && phone == null) || (email == null && phone != null),
-        '`email` or `phone` needs to be specified.');
+    // assert((email != null && phone == null) || (email == null && phone != null),
+    //     '`email` or `phone` needs to be specified.');
     assert(token != null || tokenHash != null,
         '`token` or `tokenHash` needs to be specified.');
 
